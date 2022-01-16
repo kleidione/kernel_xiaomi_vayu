@@ -50,7 +50,6 @@ struct clk_handoff_vdd {
 	struct clk_vdd_class *vdd_class;
 };
 
-<<<<<<< HEAD
 static LIST_HEAD(clk_handoff_vdd_list);
 static bool vdd_class_handoff_completed;
 static DEFINE_MUTEX(vdd_class_list_lock);
@@ -64,8 +63,6 @@ static DEFINE_MUTEX(vdd_class_list_lock);
  */
 static LIST_HEAD(clk_rate_change_list);
 
-=======
->>>>>>> v4.14.247
 /***    private data structures    ***/
 
 struct clk_core {
